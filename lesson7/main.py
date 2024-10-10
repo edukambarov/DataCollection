@@ -82,7 +82,7 @@ finally:
     driver.quit()
 
     # Запись файла
-    with open('hw7_output.json', 'w', encoding='utf-8') as file:
+    with open('hw7_output_2.json', 'w', encoding='utf-8') as file:
         json.dump(scrapped_data, file, indent=4, ensure_ascii=False)
 
 
